@@ -1,0 +1,47 @@
+B 2 C o m p i l a t i o n
+B 5704 Include File Summary
+B 5760 Equation Listing    SOLVE ProgramacionTV_3 Using MIP From line 3407
+D 5761 NoSaturarPeliculas
+D 5792 SeparacionDiasPeliculas1
+D 5846 SeparacionDiasPeliculas2
+D 5896 NoSaturarComerciales
+D 5920 ComputadorasUltimoBloque
+D 5946 DramaConAlcohol
+D 6529 NoAlcoholPrimerosBloques
+D 6548 AnimacionPrimerBloque
+D 6621 CategoriasNoConsecutivas1
+D 6641 CategoriasNoConsecutivas2
+D 6667 CategoriasNoConsecutivas3
+D 6699 CategoriasNoConsecutivas4
+D 6749 ComediaPorDia
+D 13037 BloqueDuracion
+D 25306 ST_Definicion
+D 37582 FuncionObjetivo
+B 81643 Column Listing      SOLVE ProgramacionTV_3 Using MIP From line 3407
+E 81644 X
+E 81742 Y
+E 81836 Z
+E 81843 ST
+B 81868 Model Statistics    SOLVE ProgramacionTV_3 Using MIP From line 3407
+B 81884 Solution Report     SOLVE ProgramacionTV_3 Using MIP From line 3407
+F 81927 NoSaturarPeliculas
+F 88933 SeparacionDiasPeliculas1
+F 95939 SeparacionDiasPeliculas2
+F 102945 NoSaturarComerciales
+F 105053 ComputadorasUltimoBloque
+F 105067 DramaConAlcohol
+F 105144 NoAlcoholPrimerosBloques
+F 105171 AnimacionPrimerBloque
+F 105186 CategoriasNoConsecutivas1
+F 105257 CategoriasNoConsecutivas2
+F 105328 CategoriasNoConsecutivas3
+F 105399 CategoriasNoConsecutivas4
+F 105468 ComediaPorDia
+F 105480 BloqueDuracion
+F 105556 ST_Definicion
+F 105629 FuncionObjetivo
+G 105632 X
+G 185637 Y
+G 188643 Z
+G 188649 ST
+B 188731 E x e c u t i o n

@@ -1,0 +1,161 @@
+
+--- Job ProgramacionTV_3.gms Start 08/27/24 22:42:18 WEX-VS8 23.5.2 x86/MS Windows        
+GAMS Rev 235  Copyright (C) 1987-2010 GAMS Development. All rights reserved
+Licensee: Gary Goldstein                                 G010614:2121CA-WIN
+          Decision Ware, Inc.                                        DC2807
+--- Starting compilation
+--- ProgramacionTV_3.gms(32) 3 Mb
+--- .A(e,d).inc(56) 3 Mb
+--- ProgramacionTV_3.gms(33) 3 Mb
+--- .B(f,d).inc(21) 3 Mb
+--- ProgramacionTV_3.gms(34) 3 Mb
+--- .CategoriaC(c,n).inc(100) 3 Mb
+--- ProgramacionTV_3.gms(35) 3 Mb
+--- .GeneroP(p,g).inc(1000) 4 Mb
+--- ProgramacionTV_3.gms(36) 4 Mb
+--- .DurP(p).inc(1000) 4 Mb
+--- ProgramacionTV_3.gms(37) 4 Mb
+--- .DurC(c).inc(100) 4 Mb
+--- ProgramacionTV_3.gms(38) 4 Mb
+--- .S(n).inc(9) 4 Mb
+--- ProgramacionTV_3.gms(39) 4 Mb
+--- .ExitoP(p).inc(1000) 4 Mb
+--- ProgramacionTV_3.gms(40) 4 Mb
+--- .Aud(d,i).inc(6) 4 Mb
+--- ProgramacionTV_3.gms(41) 4 Mb
+--- .RevC(n).inc(9) 4 Mb
+--- ProgramacionTV_3.gms(114) 4 Mb
+--- Starting execution: elapsed 0:00:00.021
+--- ProgramacionTV_3.gms(3405) 5 Mb
+--- Generating MIP model ProgramacionTV_3
+--- ProgramacionTV_3.gms(3407) 79 Mb
+---   23,605 rows  83,071 columns  2,071,365 non-zeroes
+---   83,070 discrete-columns
+***
+***   70 Integer +INF Bounds have been reset to 100
+***
+--- ProgramacionTV_3.gms(3407) 79 Mb
+--- Executing CPLEX: elapsed 0:00:01.405
+
+IBM ILOG CPLEX   Aug 18, 2010 23.5.2 WIN 19143.19383 VS8 x86/MS Windows
+Cplex 12.2.0.0, GAMS Link 34 
+GAMS/Cplex licensed for continuous and discrete problems.
+
+Reading parameter(s) from "C:\Users\chris\OneDrive\Documentos\gamsdir\projdir\cplex.opt"
+*** Warning Read from empty file or string
+Finished reading from "C:\Users\chris\OneDrive\Documentos\gamsdir\projdir\cplex.opt"
+Cplex MIP uses 1 of 12 parallel threads. Change default with option THREADS.
+Reading data...
+Starting Cplex...
+Tried aggregator 1 time.
+MIP Presolve eliminated 22163 rows and 55556 columns.
+MIP Presolve modified 1088 coefficients.
+Reduced MIP has 1442 rows, 27515 columns, and 247951 nonzeros.
+Reduced MIP has 27445 binaries, 70 generals, 0 SOSs, and 0 indicators.
+Probing fixed 64 vars, tightened 0 bounds.
+Probing time =    0.61 sec.
+Tried aggregator 1 time.
+MIP Presolve eliminated 0 rows and 2536 columns.
+Reduced MIP has 1442 rows, 24979 columns, and 227565 nonzeros.
+Reduced MIP has 24909 binaries, 70 generals, 0 SOSs, and 0 indicators.
+Presolve time =    2.20 sec.
+Dual steepest-edge pricing selected.
+Probing fixed 22 vars, tightened 0 bounds.
+Probing time =    0.34 sec.
+Clique table members: 16743.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Tried aggregator 1 time.
+LP Presolve eliminated 0 rows and 22 columns.
+Reduced LP has 1442 rows, 24957 columns, and 227343 nonzeros.
+Presolve time =    0.02 sec.
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =     448429832.500000
+Root relaxation solution time =    0.05 sec.
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer     Best Node    ItCnt     Gap
+
+      0     0  2002812.8309    21                2002812.8309      230         
+      0     0  1913347.2071    63                    Cuts: 28      988         
+      0     0  1898700.1791    45                    Cuts: 26     1297         
+      0     0  1898698.9738    50                    Cuts: 13     1323         
+      0     0  1898166.0422    50                     Cuts: 7     1342         
+      0     0  1897632.7089    51                    Cuts: 10     1362         
+      0     0  1897632.7089    41                     Cuts: 8     1377         
+      0     0  1897632.7089    56                   Covers: 6     1402         
+      0     2  1897100.1791    29                1897100.1791     1402         
+Elapsed real time =   8.83 sec. (tree size =  0.00 MB, solutions = 0)
+     18    20  1896980.0000    20                1897100.1791     1692         
+     30    32  1896245.9091    23                1897100.1791     2119         
+*    40+   40                      1876755.0000  1897100.1791     2356    1.08%
+
+Clique cuts applied:  12
+Cover cuts applied:  5
+Implied bound cuts applied:  5
+Flow cuts applied:  4
+Zero-half cuts applied:  3
+Gomory fractional cuts applied:  3
+MIP status(102): integer optimal, tolerance
+Fixing integer variables, and solving final LP...
+Tried aggregator 1 time.
+LP Presolve eliminated 23605 rows and 83071 columns.
+All rows and columns eliminated.
+Presolve time =    0.14 sec.
+Fixed MIP status(1): optimal
+
+Solution satisfies tolerances.
+
+MIP Solution:      1876755.000000    (2356 iterations, 40 nodes)
+Final Solve:       1876755.000000    (0 iterations)
+
+Best possible:     1897100.179063
+Absolute gap:        20345.179063
+Relative gap:            0.010841
+
+--- Restarting execution
+--- ProgramacionTV_3.gms(3407) 0 Mb
+--- Reading solution for model ProgramacionTV_3
+--- ProgramacionTV_3.gms(3407) 10 Mb
+--- Executing after solve: elapsed 0:00:11.491
+--- ProgramacionTV_3.gms(3412) 11 Mb
+
+GDXXRW           Aug 18, 2010 23.5.2 WIN 19379.19383 VS8 x86/MS Windows       
+Input file : C:\Users\chris\OneDrive\Documentos\gamsdir\projdir\ProgramacionTV_3.gdx
+Output file: C:\Users\chris\OneDrive\Documentos\gamsdir\projdir\ProgramacionTV_3.xlsx
+**** Unable to save XLS file: No se puede obtener acceso a "ProgramacionTV_3.xlsx"
+
+Any changes made to the spreadsheet were not saved
+Total time = 1782 Ms
+--- ProgramacionTV_3.gms(3413) 11 Mb
+
+GDXXRW           Aug 18, 2010 23.5.2 WIN 19379.19383 VS8 x86/MS Windows       
+Input file : C:\Users\chris\OneDrive\Documentos\gamsdir\projdir\ProgramacionTV_3.gdx
+Output file: C:\Users\chris\OneDrive\Documentos\gamsdir\projdir\ProgramacionTV_3.xlsx
+**** Unable to save XLS file: No se puede obtener acceso a "ProgramacionTV_3.xlsx"
+
+Any changes made to the spreadsheet were not saved
+Total time = 1266 Ms
+--- ProgramacionTV_3.gms(3414) 11 Mb
+
+GDXXRW           Aug 18, 2010 23.5.2 WIN 19379.19383 VS8 x86/MS Windows       
+Input file : C:\Users\chris\OneDrive\Documentos\gamsdir\projdir\ProgramacionTV_3.gdx
+Output file: C:\Users\chris\OneDrive\Documentos\gamsdir\projdir\ProgramacionTV_3.xlsx
+**** Unable to save XLS file: No se puede obtener acceso a "ProgramacionTV_3.xlsx"
+
+Any changes made to the spreadsheet were not saved
+Total time = 1219 Ms
+--- ProgramacionTV_3.gms(3415) 11 Mb
+
+GDXXRW           Aug 18, 2010 23.5.2 WIN 19379.19383 VS8 x86/MS Windows       
+Input file : C:\Users\chris\OneDrive\Documentos\gamsdir\projdir\ProgramacionTV_3.gdx
+Output file: C:\Users\chris\OneDrive\Documentos\gamsdir\projdir\ProgramacionTV_3.xlsx
+**** Unable to save XLS file: No se puede obtener acceso a "ProgramacionTV_3.xlsx"
+
+Any changes made to the spreadsheet were not saved
+Total time = 1172 Ms
+*** Status: Normal completion
+--- Job ProgramacionTV_3.gms Stop 08/27/24 22:42:36 elapsed 0:00:17.572
